@@ -1,0 +1,741 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 1440px;
+  display: block;
+  margin: auto;
+  font-family: "HK Grotesk", "HK Grotesk Pro";
+}
+/* первый блок: вход в кофейню */
+.section-1 {
+  display: flex;
+  width: 1440px;
+}
+.kofeyna {
+  margin-left: 3%;
+  margin-top: 1%;
+  position: relative;
+  display: inline-block;
+}
+.chasy_raboty {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  font-weight: 700;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 22px;
+}
+.chasy_raboty2 {
+  position: absolute;
+  top: 44%;
+  left: 20%;
+  font-weight: 500;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: black;
+  font-size: 17px;
+}
+.girlyanda {
+  position: absolute;
+  top: 23%;
+  left: 424px;
+}
+.hk_grotesk_zagolovok {
+  position: absolute;
+  font-weight: 700;
+  top: 65%;
+  left: 450px;
+  color: #fb7500;
+  font-size: 127px;
+}
+.founder {
+  position: absolute;
+  font-weight: 700;
+  top: 81%;
+  left: 1120px;
+  color: #000000;
+  font-size: 26px;
+}
+.founder2 {
+  position: absolute;
+  font-weight: 500;
+  font-style: italic;
+  top: 84%;
+  left: 1010px;
+  color: #000000;
+  font-size: 25px;
+}
+.lampochka1 {
+  position: absolute;
+  top: 110px;
+  left: 350px;
+}
+.lampochka2 {
+  position: absolute;
+  top: 130px;
+  left: 580px;
+}
+.lampochka3 {
+  position: absolute;
+  top: 160px;
+  left: 830px;
+}
+.lampochka4 {
+  position: absolute;
+  top: 125px;
+  left: 1025px;
+}
+.lampochka5 {
+  position: absolute;
+  top: 270px;
+  left: 435px;
+}
+.lampochka6 {
+  position: absolute;
+  top: 323px;
+  left: 600px;
+}
+.lampochka7 {
+  position: absolute;
+  top: 282px;
+  left: 765px;
+}
+.lampochka8 {
+  position: absolute;
+  top: 260px;
+  left: 950px;
+}
+/* второй блок: меню и кружки */
+.section-2 {
+  display: flex;
+  position: absolute;
+  width: 1440px;
+  margin-top: -90px;
+}
+.pro_shrift {
+  position: absolute;
+
+  font-weight: 700;
+  text-align: right;
+  white-space: nowrap;
+  top: 330px;
+  left: 841px;
+  color: #000000;
+  font-size: 48px;
+}
+.fon_texta {
+  position: absolute;
+  top: 320px;
+  left: 825px;
+}
+.menu {
+  position: absolute;
+}
+.hand {
+  position: absolute;
+  top: 450px;
+}
+.cup1 {
+  position: absolute;
+  left: 650px;
+  transform: scaleX(-1);
+}
+.cup2 {
+  position: absolute;
+  top: 450px;
+  left: 470px;
+}
+/* весь текст в меню */
+.menu_text1 {
+  position: absolute;
+  font-weight: 700;
+  white-space: nowrap;
+  top: 52px;
+  left: 120px;
+  color: #000000;
+  font-size: 64px;
+  transform: rotate(7.5deg);
+}
+.menu_text1_2 {
+  position: absolute;
+  font-weight: 700;
+  top: 128px;
+  left: 410px;
+  color: #000000;
+  background-color: #fb7500;
+  border-radius: 8px;
+  font-size: 35px;
+  transform: rotate(8deg);
+}
+.menu_text2 {
+  position: absolute;
+  white-space: nowrap;
+  font-weight: 500;
+  top: 118px;
+  left: 110px;
+  color: #000000;
+  font-size: 27px;
+  transform: rotate(8deg);
+}
+.menu_text3 {
+  position: absolute;
+  white-space: nowrap;
+  font-weight: 500;
+  top: 210px;
+  left: 85px;
+  color: #000000;
+  font-size: 27px;
+  transform: rotate(8deg);
+}
+.menu_text4 {
+  position: absolute;
+  white-space: nowrap;
+  font-weight: 500;
+  top: 300px;
+  left: 60px;
+  color: #000000;
+  font-size: 27px;
+  transform: rotate(8deg);
+}
+.menu_text2_1 {
+  position: absolute;
+  font-weight: 700;
+  top: 205px;
+  left: 360px;
+  color: #000000;
+  font-size: 24px;
+  transform: rotate(8deg);
+}
+.menu_text3_1 {
+  position: absolute;
+  font-weight: 700;
+  top: 290px;
+  left: 320px;
+  color: #000000;
+  font-size: 24px;
+  transform: rotate(8deg);
+}
+.menu_text4_1 {
+  position: absolute;
+  font-weight: 700;
+  top: 380px;
+  left: 280px;
+  color: #000000;
+  font-size: 24px;
+  transform: rotate(8deg);
+}
+/* буквы в нижней кружке */
+.bukva_a {
+  position: absolute;
+  font-weight: 700;
+  top: 460px;
+  left: 600px;
+  color: #000000;
+  font-size: 130px;
+  transform: rotate(75deg);
+}
+.bukva_m {
+  position: absolute;
+  font-weight: 700;
+  top: 545px;
+  left: 580px;
+  color: #000000;
+  font-size: 112px;
+  transform: rotate(75deg);
+}
+.bukva_a2 {
+  position: absolute;
+  font-weight: 700;
+  top: 590px;
+  left: 530px;
+  color: #000000;
+  font-size: 130px;
+  transform: rotate(-50deg);
+}
+.bukva_y {
+  position: absolute;
+  font-weight: 700;
+  top: 535px;
+  left: 653px;
+  color: #000000;
+  font-size: 112px;
+  transform: rotate(-50deg);
+}
+.bukva_g {
+  position: absolute;
+  font-weight: 700;
+  top: 600px;
+  left: 640px;
+  color: #000000;
+  font-size: 112px;
+  transform: rotate(8deg);
+}
+.bukva_b {
+  position: absolute;
+  font-weight: 700;
+  top: 520px;
+  left: 510px;
+  color: #000000;
+  font-size: 112px;
+  transform: rotate(30deg);
+}
+.bukva_r {
+  position: absolute;
+  font-weight: 700;
+  top: 524px;
+  left: 730px;
+  color: #000000;
+  font-size: 120px;
+  transform: rotate(60deg);
+}
+/* цифры в верхней кружке */
+.odin {
+  position: absolute;
+  font-weight: 700;
+  top: 65px;
+  left: 770px;
+  color: #000000;
+  font-size: 120px;
+  transform: rotate(30deg);
+}
+.dva {
+  position: absolute;
+  font-weight: 700;
+  top: 145px;
+  left: 800px;
+  color: #000000;
+  font-size: 120px;
+  transform: rotate(-40deg);
+}
+.tri {
+  position: absolute;
+  font-weight: 700;
+  top: 95px;
+  left: 860px;
+  color: #000000;
+  font-size: 120px;
+  transform: rotate(90deg);
+}
+.chetyre {
+  position: absolute;
+  font-weight: 700;
+  top: 30px;
+  left: 900px;
+  color: #000000;
+  font-size: 120px;
+  transform: rotate(120deg);
+}
+.pyat {
+  position: absolute;
+  font-weight: 700;
+  top: 145px;
+  left: 925px;
+  color: #000000;
+  font-size: 120px;
+  transform: rotate(35deg);
+}
+/* третий блок: алфавит */
+.section-3 {
+  display: flex;
+  width: 1440px;
+  position: absolute;
+  margin-top: 810px;
+}
+.alphabet {
+  position: absolute;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  top: 30px;
+  left: 50px;
+  color: #000000;
+  font-size: 106px;
+}
+.zerno1 {
+  position: absolute;
+  top: 90px;
+  left: 940px;
+  transform: rotate(90deg);
+}
+.zerno2 {
+  position: absolute;
+  top: 240px;
+  left: 250px;
+  transform: scale(0.9);
+}
+.plastic_cup {
+  position: absolute;
+  top: 160px;
+  left: 860px;
+}
+/* буквы на чашке господи помоги */
+.kofe_k1 {
+  position: absolute;
+  font-weight: 700;
+  top: 260px;
+  left: 950px;
+  color: #fb7500;
+  font-size: 106px;
+  transform: rotate(-10deg);
+}
+.kofe_o1 {
+  position: absolute;
+  font-weight: 700;
+  top: 248px;
+  left: 1005px;
+  color: #fb7500;
+  font-size: 106px;
+  transform: rotate(-15deg);
+}
+.kofe_f1 {
+  position: absolute;
+  font-weight: 700;
+  top: 230px;
+  left: 1063px;
+  color: #fb7500;
+  font-size: 106px;
+  transform: rotate(-15deg);
+}
+.kofe_e1 {
+  position: absolute;
+  font-weight: 700;
+  top: 210px;
+  left: 1140px;
+  color: #fb7500;
+  font-size: 106px;
+  transform: rotate(-17deg);
+}
+.kofe_k2 {
+  position: absolute;
+  font-weight: 700;
+  top: 450px;
+  left: 1005px;
+  color: #fb7500;
+  font-size: 106px;
+  transform: rotate(-25deg) scaleY(-1);
+}
+.kofe_o2 {
+  position: absolute;
+  font-weight: 700;
+  top: 429px;
+  left: 1055px;
+  color: #fb7500;
+  font-size: 106px;
+  transform: rotate(-15deg) scaleY(-1);
+}
+.kofe_f2 {
+  position: absolute;
+  font-weight: 700;
+  top: 410px;
+  left: 1115px;
+  color: #fb7500;
+  font-size: 106px;
+  transform: rotate(-15deg) scaleY(-1);
+}
+.kofe_e2 {
+  position: absolute;
+  font-weight: 700;
+  top: 398px;
+  left: 1190px;
+  color: #fb7500;
+  font-size: 106px;
+  transform: rotate(-5deg) scaleY(-1);
+}
+/* четвертый блок: капсулы */
+.section-4 {
+  display: flex;
+  width: 1440px;
+  position: absolute;
+  margin-top: 1350px;
+}
+.poloska1 {
+  position: absolute;
+}
+.zagolovok_2 {
+  position: absolute;
+  font-weight: 700;
+  top: 20px;
+  left: 50px;
+  color: #000000;
+  font-size: 64px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+.podzagolovok_2 {
+  position: absolute;
+  font-weight: 700;
+  white-space: nowrap;
+  top: 95px;
+  left: 50px;
+  color: #000000;
+  font-size: 32px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+/* капсулки кофейные */
+.circle1 {
+  position: absolute;
+  top: 250px;
+  left: 20px;
+  background: #ffffff;
+  border: 8px solid #000000;
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+}
+.circle2 {
+  position: absolute;
+  top: 250px;
+  left: 230px;
+  background: #ffffff;
+  border: 8px solid #000000;
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+}
+.circle3 {
+  position: absolute;
+  top: 250px;
+  left: 440px;
+  background: #ffffff;
+  border: 8px solid #000000;
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+}
+.circle4 {
+  position: absolute;
+  top: 250px;
+  left: 650px;
+  background: #ffffff;
+  border: 8px solid #000000;
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+}
+.minicircle4 {
+  position: absolute;
+  top: 267px;
+  left: 667px;
+  background: #ffffff;
+  border: 8px solid #000000;
+  border-radius: 50%;
+  height: 146px;
+  width: 146px;
+}
+.otkroy1 {
+  position: absolute;
+  top: 230px;
+  left: 750px;
+}
+.circle5 {
+  position: absolute;
+  top: 250px;
+  left: 860px;
+  background: #ffffff;
+  border: 8px solid #000000;
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+}
+.circle6 {
+  position: absolute;
+  top: 250px;
+  left: 1070px;
+  background: #ffffff;
+  border: 8px solid #000000;
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+}
+.circle7 {
+  position: absolute;
+  top: 250px;
+  left: 1280px;
+  background: #ffffff;
+  border: 8px solid #000000;
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+}
+/* второй ряд */
+.circle8 {
+  position: absolute;
+  top: 460px;
+  left: -30px;
+  background: #ffffff;
+  border: 8px solid #000000;
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+}
+.circle9 {
+  position: absolute;
+  top: 460px;
+  left: 180px;
+  background: #ffffff;
+  border: 8px solid #000000;
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+}
+.minicircle9 {
+  position: absolute;
+  top: 477px;
+  left: 197px;
+  background: #ffffff;
+  border: 8px solid #000000;
+  border-radius: 50%;
+  height: 146px;
+  width: 146px;
+}
+.otkroy2 {
+  position: absolute;
+  top: 605px;
+  left: 200px;
+  transform: rotate(180deg);
+}
+.circle10 {
+  position: absolute;
+  top: 460px;
+  left: 390px;
+  background: #ffffff;
+  border: 8px solid #000000;
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+}
+.circle11 {
+  position: absolute;
+  top: 460px;
+  left: 600px;
+  background: #ffffff;
+  border: 8px solid #000000;
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+}
+.circle12 {
+  position: absolute;
+  top: 460px;
+  left: 810px;
+  background: #ffffff;
+  border: 8px solid #000000;
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+}
+.circle13 {
+  position: absolute;
+  top: 460px;
+  left: 1020px;
+  background: #ffffff;
+  border: 8px solid #000000;
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+}
+.circle14 {
+  position: absolute;
+  top: 460px;
+  left: 1230px;
+  background: #ffffff;
+  border: 8px solid #000000;
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+}
+/* буквы в капсулах */
+.a1 {
+  position: absolute;
+  top: 265px;
+  left: 75px;
+  font-size: 128px;
+  font-weight: 100;
+}
+.a2 {
+  position: absolute;
+  top: 265px;
+  left: 285px;
+  font-size: 128px;
+  font-weight: 200;
+}
+.a3 {
+  position: absolute;
+  top: 269px;
+  left: 495px;
+  font-size: 130px;
+  font-weight: 300;
+}
+.a5 {
+  position: absolute;
+  top: 263px;
+  left: 915px;
+  font-size: 130px;
+  font-weight: 400;
+}
+.a6 {
+  position: absolute;
+  top: 269px;
+  left: 1125px;
+  font-size: 130px;
+  font-weight: 500;
+}
+.a7 {
+  position: absolute;
+  top: 265px;
+  left: 1335px;
+  font-size: 130px;
+  font-weight: 600;
+}
+/* второй ряд */
+.a8 {
+  position: absolute;
+  top: 475px;
+  left: 20px;
+  font-size: 130px;
+  font-style: italic;
+  font-weight: 400;
+}
+.a10 {
+  position: absolute;
+  top: 475px;
+  left: 440px;
+  font-size: 130px;
+  font-style: italic;
+  font-weight: 500;
+}
+.a11 {
+  position: absolute;
+  top: 475px;
+  left: 650px;
+  font-size: 130px;
+  font-style: italic;
+  font-weight: 600;
+}
+.a12 {
+  position: absolute;
+  top: 475px;
+  left: 860px;
+  font-size: 130px;
+  font-style: italic;
+  font-weight: 700;
+}
+.a13 {
+  position: absolute;
+  top: 475px;
+  left: 1070px;
+  font-size: 130px;
+  font-style: italic;
+  font-weight: 800;
+}
+.a14 {
+  position: absolute;
+  top: 475px;
+  left: 1280px;
+  font-size: 130px;
+  font-style: italic;
+  font-weight: 900;
+}
