@@ -739,3 +739,31 @@ body {
   font-style: italic;
   font-weight: 900;
 }
+.coffeecapsule {
+  position: absolute;
+  top: 315px;
+  left: 700px;
+  font-size: 28px;
+  font-weight: 300;
+}
+.capsulecoffee {
+  position: absolute;
+  top: 335px;
+  left: 687px;
+  font-size: 28px;
+  font-weight: 700;
+}
+.coffeecapsule2 {
+  position: absolute;
+  top: 525px;
+  left: 230px;
+  font-size: 28px;
+  font-weight: 300;
+}
+.capsulecoffee2 {
+  position: absolute;
+  top: 545px;
+  left: 220px;
+  font-size: 28px;
+  font-weight: 700;
+}
