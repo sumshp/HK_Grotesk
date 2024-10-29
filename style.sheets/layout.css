@@ -6,7 +6,7 @@ body {
   display: block;
   margin: auto;
   font-family: "HK Grotesk", "HK Grotesk Pro";
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 /* первый блок: вход в кофейню */
 .section-1 {
