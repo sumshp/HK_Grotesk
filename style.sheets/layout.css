@@ -1496,10 +1496,17 @@ body {
 }
 .podval_text {
   position: absolute;
-  top: 635px;
+  top: 648px;
   left: 80px;
-  font-weight: 500;
+  font-weight: 700;
   color: #ffffff;
-  font-size: 38px;
+  font-size: 30px;
   text-align: left;
+  line-height: 115%;
+}
+.logo {
+  position: absolute;
+  top: 520px;
+  left: 930px;
+  transform: scale(0.24);
 }
