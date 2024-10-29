@@ -136,6 +136,7 @@ body {
 }
 .hand {
   position: absolute;
+  left: 0px;
   top: 450px;
 }
 .cup1 {
@@ -1399,6 +1400,7 @@ body {
   left: 680px;
   font-weight: 700;
   font-size: 26px;
+  white-space: nowrap;
   transform: rotate(-23deg);
 }
 /* девятая секция: УРА КОНЕЦ ПОДВАЛ */
@@ -1509,4 +1511,61 @@ body {
   top: 520px;
   left: 930px;
   transform: scale(0.24);
+}
+/* всякие приколы при наведении курсором */
+.plastic_cup_all {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.plastic_cup_all:hover {
+  transform: rotate(2deg);
+}
+.sign_closed {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.sign_closed:hover {
+  transform: rotate(1deg);
+}
+h3:visited {
+  color: #000000;
+}
+h3:hover {
+  transition: 0.3s;
+  color: #fb7500;
+}
+.menu {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.menu:hover {
+  transform: rotate(2deg);
+}
+.bukovki > p {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.bukovki > p:hover {
+  transform: rotate(-12deg);
+}
+.coooookie {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.coooookie:hover {
+  transform: rotate(-1deg);
+}
+.package {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.package:hover {
+  transform: rotate(-5deg);
+}
+.check {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.check:hover {
+  transform: rotate(-1deg);
 }
