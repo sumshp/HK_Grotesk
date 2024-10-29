@@ -6,6 +6,7 @@ body {
   display: block;
   margin: auto;
   font-family: "HK Grotesk", "HK Grotesk Pro";
+  /* overflow-x: hidden; */
 }
 /* первый блок: вход в кофейню */
 .section-1 {
@@ -1006,6 +1007,7 @@ body {
   position: absolute;
   top: 128px;
 }
+/* всё что в меню написано */
 .prilavok_menu {
   position: absolute;
   font-weight: 500;
@@ -1023,6 +1025,42 @@ body {
   height: 140px;
   width: 468px;
 }
+.prilavok_text1 {
+  position: absolute;
+  font-weight: 700;
+  top: 575px;
+  left: 270px;
+  font-size: 45px;
+  line-height: 100%;
+}
+.prilavok_s1 {
+  position: absolute;
+  font-weight: 900;
+  top: 390px;
+  left: 270px;
+  font-size: 176px;
+}
+.prilavok_s2 {
+  position: absolute;
+  font-weight: 700;
+  top: 398px;
+  left: 410px;
+  font-size: 176px;
+}
+.prilavok_s3 {
+  position: absolute;
+  font-weight: 500;
+  top: 398px;
+  left: 540px;
+  font-size: 176px;
+}
+.price1 {
+  position: absolute;
+  font-weight: 500;
+  top: 370px;
+  left: 270px;
+  font-size: 38px;
+}
 .round2 {
   position: absolute;
   top: 290px;
@@ -1032,4 +1070,436 @@ body {
   border-radius: 70px;
   height: 159px;
   width: 554px;
+}
+.prilavok_text2 {
+  position: absolute;
+  font-weight: 700;
+  top: 460px;
+  left: 830px;
+  font-size: 45px;
+  line-height: 100%;
+}
+.prilavok_a1 {
+  position: absolute;
+  font-weight: 900;
+  top: 265px;
+  left: 850px;
+  font-size: 176px;
+}
+.prilavok_a2 {
+  position: absolute;
+  font-weight: 700;
+  top: 273px;
+  left: 1020px;
+  font-size: 176px;
+}
+.prilavok_a3 {
+  position: absolute;
+  font-weight: 500;
+  top: 273px;
+  left: 1183px;
+  font-size: 176px;
+}
+.price2 {
+  position: absolute;
+  font-weight: 500;
+  top: 235px;
+  left: 1120px;
+  font-size: 38px;
+}
+/* всё что лежит на прилавке */
+.boba {
+  position: absolute;
+  top: 860px;
+  left: 100px;
+}
+.sahar {
+  position: absolute;
+  top: 1070px;
+  left: 300px;
+}
+.prilavok_infa_outter {
+  position: absolute;
+  top: 650px;
+  left: 800px;
+  background: #fb7500;
+  height: 115px;
+  width: 586px;
+}
+.prilavok_infa_inner {
+  position: absolute;
+  top: 662px;
+  left: 830px;
+  font-weight: 700;
+  font-size: 44px;
+  color: #ffffff;
+}
+.prilavok_m {
+  position: absolute;
+  top: 760px;
+  left: 910px;
+  font-weight: 700;
+  font-size: 213px;
+}
+.prilavok_s {
+  position: absolute;
+  top: 760px;
+  left: 1200px;
+  font-weight: 700;
+  font-size: 213px;
+}
+.prilavok_a {
+  position: absolute;
+  top: 976px;
+  left: 935px;
+  font-weight: 700;
+  font-size: 213px;
+}
+.prilavok_u {
+  position: absolute;
+  top: 976px;
+  left: 1200px;
+  font-weight: 700;
+  font-size: 213px;
+}
+.prilavok_b {
+  position: absolute;
+  top: 1200px;
+  left: 910px;
+  font-weight: 700;
+  font-size: 213px;
+}
+.sale {
+  position: absolute;
+  top: 1385px;
+  left: 1150px;
+  background: #fbe600;
+  height: 69px;
+  width: 237px;
+}
+.sale_text {
+  position: absolute;
+  top: 1398px;
+  left: 1170px;
+  font-weight: 700;
+  font-size: 43px;
+}
+/* седьмая секция: чашечки, цифры и глифы */
+.section-7 {
+  display: flex;
+  width: 1440px;
+  position: absolute;
+  margin-top: 4340px;
+}
+.zagolovok_4 {
+  position: absolute;
+  font-weight: 700;
+  top: 200px;
+  left: 600px;
+  color: #000000;
+  font-size: 64px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+.cups {
+  position: absolute;
+  top: 400px;
+}
+.numbers_1 {
+  position: absolute;
+  font-weight: 700;
+  top: 230px;
+  left: 355px;
+  color: #000000;
+  font-size: 405px;
+}
+.numbers_2 {
+  position: absolute;
+  font-weight: 700;
+  top: 600px;
+  left: 10px;
+  color: #000000;
+  font-size: 405px;
+}
+.numbers_3 {
+  position: absolute;
+  font-weight: 700;
+  top: 770px;
+  left: 450px;
+  color: #000000;
+  font-size: 405px;
+}
+.numbers_4 {
+  position: absolute;
+  font-weight: 700;
+  top: 530px;
+  left: 785px;
+  color: #000000;
+  font-size: 405px;
+}
+.numbers_5 {
+  position: absolute;
+  font-weight: 700;
+  top: 310px;
+  left: 1070px;
+  color: #000000;
+  font-size: 405px;
+}
+.numbers_6 {
+  position: absolute;
+  font-weight: 700;
+  top: 760px;
+  left: 1190px;
+  color: #000000;
+  font-size: 405px;
+}
+.glify {
+  position: absolute;
+  top: 1150px;
+  left: 50px;
+  background-color: #fb7500;
+  border-radius: 100px;
+  height: 506px;
+  width: 1309px;
+}
+.glify_text {
+  position: absolute;
+  font-weight: 700;
+  top: 1195px;
+  left: 120px;
+  color: #ffffff;
+  font-size: 89px;
+  line-height: 110px;
+}
+/* восьмая секция: уютные печеньки */
+.section-8 {
+  display: flex;
+  width: 1440px;
+  position: absolute;
+  margin-top: 6150px;
+}
+.zagolovok_5 {
+  position: absolute;
+  font-weight: 700;
+  left: 700px;
+  font-size: 64px;
+}
+.podzagolovok_5 {
+  position: absolute;
+  font-weight: 500;
+  left: 700px;
+  top: 90px;
+  font-size: 47px;
+  line-height: 115%;
+}
+.cookie {
+  position: absolute;
+  left: 20px;
+  top: 80px;
+}
+.package {
+  position: absolute;
+  left: 780px;
+  top: 400px;
+}
+.receipt {
+  position: absolute;
+  left: 400px;
+  top: 685px;
+}
+.cookie_text1 {
+  position: absolute;
+  font-weight: 700;
+  font-size: 165px;
+  top: 325px;
+  left: 190px;
+  line-height: 140%;
+  text-align: right;
+  transform: rotate(22.5deg);
+}
+.cookie_text2 {
+  position: absolute;
+  font-weight: 700;
+  font-size: 165px;
+  top: 455px;
+  left: 130px;
+  transform: rotate(22.5deg);
+}
+.vkusno {
+  position: absolute;
+  top: 580px;
+  left: 900px;
+  background-color: #fb7500;
+  height: 62px;
+  width: 303px;
+  border: 8px solid #ffffff;
+  border-radius: 100%;
+  transform: rotate(30deg);
+}
+.vkusno_text {
+  position: absolute;
+  top: 592px;
+  left: 952px;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 30.5px;
+  transform: rotate(30deg);
+}
+.receipt_1 {
+  position: absolute;
+  top: 810px;
+  left: 570px;
+  font-weight: 500;
+  font-size: 27px;
+  transform: rotate(-23deg);
+}
+.receipt_1_1 {
+  position: absolute;
+  top: 898px;
+  left: 600px;
+  font-weight: 500;
+  font-size: 18px;
+  transform: rotate(-23deg);
+}
+.receipt_2 {
+  position: absolute;
+  top: 885px;
+  left: 608px;
+  font-weight: 500;
+  font-size: 27px;
+  transform: rotate(-23deg);
+}
+.receipt_2_1 {
+  position: absolute;
+  top: 982px;
+  left: 638px;
+  font-weight: 500;
+  font-size: 18px;
+  transform: rotate(-23deg);
+}
+.receipt_3 {
+  position: absolute;
+  top: 990px;
+  left: 645px;
+  font-weight: 500;
+  font-size: 27px;
+  transform: rotate(-23deg);
+}
+.receipt_3_1 {
+  position: absolute;
+  top: 1042px;
+  left: 665px;
+  font-weight: 500;
+  font-size: 18px;
+  transform: rotate(-23deg);
+}
+.receipt_4 {
+  position: absolute;
+  top: 1045px;
+  left: 680px;
+  font-weight: 700;
+  font-size: 26px;
+  transform: rotate(-23deg);
+}
+/* девятая секция: УРА КОНЕЦ ПОДВАЛ */
+.section-9 {
+  display: flex;
+  width: 1440px;
+  position: absolute;
+  margin-top: 7400px;
+  margin-left: -50px;
+}
+.sign {
+  position: absolute;
+  left: 550px;
+}
+.closed {
+  position: absolute;
+  top: 205px;
+  left: 610px;
+  font-weight: 700;
+  font-size: 110px;
+  transform: rotate(-7.8deg);
+}
+.finishzerno1 {
+  position: absolute;
+  top: 70px;
+  left: 1250px;
+  transform: scale(3) rotate(85deg);
+}
+.finishzerno2 {
+  position: absolute;
+  top: 260px;
+  left: 200px;
+  transform: scale(3) rotate(10deg);
+}
+.ostorojno {
+  position: absolute;
+  top: 10px;
+  left: 50px;
+  background-color: #fb7500;
+  height: 63px;
+  width: 483px;
+  border-radius: 50px;
+  transform: rotate(-18deg);
+}
+.ostorojno_text {
+  position: absolute;
+  top: 18px;
+  left: 65px;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 52px;
+  transform: rotate(-18deg);
+}
+.caution {
+  position: absolute;
+  top: 320px;
+  left: 1050px;
+  background-color: #fbe600;
+  height: 71px;
+  width: 384px;
+  border: 8px solid #000000;
+  border-radius: 50px;
+  transform: rotate(12deg);
+}
+.caution_text {
+  position: absolute;
+  top: 328px;
+  left: 1085px;
+  font-weight: 700;
+  font-size: 52px;
+  transform: rotate(12deg);
+}
+.finish_chasy_raboty {
+  position: absolute;
+  top: 400px;
+  left: 615px;
+  font-weight: 700;
+  font-size: 53px;
+}
+.finish_chasy_raboty2 {
+  position: absolute;
+  top: 463px;
+  left: 600px;
+  font-weight: 500;
+  font-size: 43px;
+  text-align: center;
+}
+.podval {
+  position: absolute;
+  top: 615px;
+  left: 50px;
+  height: 121px;
+  width: 1440px;
+  background-color: #000000;
+}
+.podval_text {
+  position: absolute;
+  top: 635px;
+  left: 80px;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 38px;
+  text-align: left;
 }
